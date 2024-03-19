@@ -4,7 +4,7 @@
 
 body{
   background-color: #FAFAFA;
-  color: #252B42;
+  color: #001D3D;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -164,10 +164,10 @@ a{
 
 footer{
   background: rgb(179,255,251);
-background: linear-gradient(36deg, rgba(179,255,251,1) 0%, rgba(215,195,244,1) 100%);
-border-radius:  0% 70% 70% 0% / 49% 100% 0% 51% ;
+background: linear-gradient(45deg, rgba(255, 195, 0, 1) 0%, rgba(255, 214, 10, .5) 100%);
+border-top-right-radius: 200px;
+border-bottom-right-radius: 200px;
 }
-
 /* --------------------------------------------------------------------- */
 /* ------------------------ RESPONSIVE DESIGN -------------------------- */
 /* --------------------------------------------------------------------- */
@@ -209,8 +209,9 @@ border-radius:  0% 70% 70% 0% / 49% 100% 0% 51% ;
   }
   footer{
   background: rgb(179,255,251);
-  background: linear-gradient(36deg, rgba(179,255,251,1) 0%, rgba(215,195,244,1) 100%);
-  border-radius:  0% 50% 70% 0% / 49% 100% 0% 51% ;
+background: linear-gradient(45deg, rgba(255, 195, 0, 1) 0%, rgba(255, 214, 10, .5) 100%);
+border-top-right-radius: 200px;
+border-bottom-right-radius: 200px;
 }
 }
 
