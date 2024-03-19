@@ -125,9 +125,9 @@ const Home = () => {
             <h4>Prüfen Sie, ob Ihre Daten vom Datenleck
               der Comdirect Bank betroffen sind.</h4>
           </div>
-          <div className="md:basis-1/2 flex items-center justify-center relative">
-            <Image src={layersBlob} alt='layers blob'></Image>
-            <Image src={mobileMockup} alt='mobile mockup' href='image' className='absolute'></Image>
+          <div className="md:basis-1/2 flex items-center justify-center relative my-5 md:my-0">
+            <Image src={layersBlob} alt='layers blob' className='absolute z-10'></Image>
+            <Image src={mobileMockup} alt='mobile mockup' href='image' className='h-[500px] z-40'></Image>
           </div>
         </section>
         <section id='input' className="w-[90%] md:w-[80%] relative flex flex-col items-center justify-between gap-8 z-40">
