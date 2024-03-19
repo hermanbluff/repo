@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import React from 'react'
 import Image from 'next/image'
-import dottedPattern from '../../public/assets/dottedPattern.svg'
+
+import sideBlob from '../../public/assets/sideBlob.svg'
 
 const VideoEmbedding = () => {
     const [values, setValues] = useState([])
@@ -27,7 +28,7 @@ const VideoEmbedding = () => {
             <h3>{values.heading}</h3>
             <p>{values.paragraph}</p>
             <iframe className='z-50 mt-5 min-h-[300px] md:min-h-[600px] w-full' src={values.videoLink} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <Image src={dottedPattern} alt='dotted pattern' className="absolute h-[500px] w-[500px] right-[-15%] top-[-15%] z-20"></Image>
+            <Image src={sideBlob} alt='dotted pattern' className="absolute h-[500px] w-[500px] md:right-[-15%] top-[-15%] z-20 overflow-x-hidden"></Image>
         </section>
     )
 }

@@ -127,7 +127,7 @@ const Home = () => {
           </div>
           <div className="md:basis-1/2 flex items-center justify-center relative my-5 md:my-0">
             <Image src={layersBlob} alt='layers blob' className='absolute z-10'></Image>
-            <Image src={mobileMockup} alt='mobile mockup' href='image' className='h-[500px] z-40'></Image>
+            <Image src={mobileMockup} alt='mobile mockup' href='image' className='z-40'></Image>
           </div>
         </section>
         <section id='input' className="w-[90%] md:w-[80%] relative flex flex-col items-center justify-between gap-8 z-40">
@@ -176,7 +176,7 @@ const Home = () => {
               />
             </div>
             <button className={`w-full text-white p-2 px-3 rounded-md ${disabled ? 'bg-slate-500' : 'bg-[#001D3D]'}`} onClick={handleUserData} disabled={disabled}>Einreichen</button>
-            <p className='mt-8'> <b> Hinweis:</b> Wir verwenden Deine Mobilfunknummer und E-Mail-Adresse zur Überprüfung, ob Du von dem Datenleck bei der Deutschen Bank betroffen bist. Der Abgleich Deiner Mobilfunknummer erfolgt auf unserem Server. Eine Weitergabe an Dritte findet nicht statt. Unmittelbar nach dem Abgleich und der Übermittlung des Ergebnisses an Dich wird Deine Mobilfunknummer bei uns gelöscht. Die Verarbeitung ist im Rahmen unserer Vertragserfüllung erforderlich, da die beauftragte Überprüfung sonst nicht möglich ist, Art. 6 Abs. 1 lit. b DSGVO.</p>
+            <p className='mt-8'> <b> Hinweis:</b> Wir verwenden Deine Mobilfunknummer und E-Mail-Adresse zur Überprüfung, ob Du von dem Datenleck bei der Comdirect Bank betroffen bist. Der Abgleich Deiner Mobilfunknummer erfolgt auf unserem Server. Eine Weitergabe an Dritte findet nicht statt. Unmittelbar nach dem Abgleich und der Übermittlung des Ergebnisses an Dich wird Deine Mobilfunknummer bei uns gelöscht. Die Verarbeitung ist im Rahmen unserer Vertragserfüllung erforderlich, da die beauftragte Überprüfung sonst nicht möglich ist, Art. 6 Abs. 1 lit. b DSGVO.</p>
           </div>
         </section>
         <section className="w-full bg-[#FFD60A] py-8 my-10">
